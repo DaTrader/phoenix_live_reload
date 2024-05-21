@@ -45,7 +45,8 @@ defmodule PhoenixLiveReload.Mixfile do
       {:makeup_eex, ">= 0.1.1", only: :docs},
       {:makeup_diff, "~> 0.1", only: :docs},
       {:file_system, "~> 0.2.10 or ~> 1.0"},
-      {:jason, "~> 1.0", only: :test}
+      {:jason, "~> 1.0", only: :test},
+      { :extructure, "~> 1.0.0"}
     ]
   end
 end
